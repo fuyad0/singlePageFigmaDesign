@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #EFF9EF;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    color: #1E1810;
+    font-size: 16px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #FF5100;
+}
+.text-orange{
+    color: #FF5100;
+}
+.bg-orange{
+    background-color: #FF5100;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.active{
+    color: #FF5100;
+    border-bottom: 3px solid #FF5100;
+    font-weight: bold;
+}
+.box-1{
+    width: 900px;
+    height: auto;
+    padding: 5px;
+    margin-top: 70px;
+}
+.box-1 h1{
+    font-size: 65px;
+}
+.box-1 p{
+    width: 650px;
+}
+.cards{
+    width: 190px;
+    height: 90px;
+    background-color: rgba(255, 81, 0, 0.2);
+    padding: 25px;
+    border-radius: 8px;
+}
+.box-3{
+    width: 100%;
+    height: 160px;
+    background-color: #FF51001A;
+    padding: 20px;
+}
+.box-3 img{
+    min-height: 50px;
+    min-width: 60px;
+}
+.box-4 .col-2 img{
+    height: 100px;
+}
+.box-4 h3{
+    width: 900px;
+}
+.box-head{
+    width: 700px;
+    margin: auto;
+}
+.box-5-main .bg-success{
+    background-color: #00B67A;
+    border-radius: 60px 8px;
+}
+.btn-black {
+    background-color: black;
+    color: white;
+}
+.box-5-main .img img{
+    height: 240px;
+}
+.box-6, .box-12{
+    background-color: #FF51001A;
+}
+.box-6-main img{
+    background-color: #D4EAE8;
+    padding: 6px;
+}
+.box-7-item img{
+    height: 25px;
+}
+.img-preview img{
+    max-width: 172px;
+    max-height: 252px;
+    border-radius: 8px;
+    margin: auto;
+}
+.box-8 .row{
+    width: 900px;
+    margin: auto;
+}
+.box-9 span.text-success{
+    background-color: #00B67A;
+    font-weight: bold;
+    color: white !important;
+}
+.box-9 span.text-danger{
+    background-color: #df082b;
+    font-weight: bold;
+    color: white !important;
+}
+.box-11 .col{
+    border-radius: 8px;
+}
+.pricing-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 30px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .pricing-card:hover {
+      transform: translateY(-5px);
+    }
+    .pricing-card h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .btn-outline-orange {
+      border-color: #ff6600;
+      color: #ff6600;
+    }
+    .btn-outline-orange:hover {
+      background-color: #ff6600;
+      color: #fff;
+    }
+    .feature-list {
+      text-align: left;
+      margin-top: 20px;
+    }
+    .feature-list li {
+      margin-bottom: 10px;
+    }
+    .feature-list li i {
+      margin-left: 5px;
+      color: #aaa;
+    }
+    .highlight-text {
+      color: #ff6600;
+      margin-top: 15px;
+      font-size: 0.9rem;
+    }
+.customer-banner {
+      background-color: #fdeee7;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .customer-images img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      margin-right: -10px;
+    }
+    .banner-text {
+      margin-left: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+.img-cont{
+    background: url('images/Frame\ 358.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 240px;
+}
+    .footer {
+      background-color: #000;
+      color: #bbb;
+      padding: 40px 20px 10px 20px;
+    }
+    .footer h5 {
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .footer a {
+      color: #bbb;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 8px;
+    }
+    .footer a:hover {
+      color: #ff6600;
+    }
+    .footer .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ff6600;
+    }
+    .footer .social-icons a {
+      color: #bbb;
+      margin-right: 12px;
+      font-size: 18px;
+    }
+    .footer .social-icons a:hover {
+      color: #fff;
+    }
+    .footer-bottom {
+      margin-top: 10px;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+.footer .social-icons{
+    float: right;
+    padding-top: 15px;
+}
+.bd-top{
+    border-top: 1px solid #333;
+}
+.img-teach{
+    right: 40px;
+    bottom: -64px !important;
+    height: 355px;
+}
